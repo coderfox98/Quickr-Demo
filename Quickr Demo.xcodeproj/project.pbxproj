@@ -8,20 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		B1EA1F6022BA1B7B0057801E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EA1F5F22BA1B7B0057801E /* AppDelegate.swift */; };
-		B1EA1F6222BA1B7B0057801E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EA1F6122BA1B7B0057801E /* ViewController.swift */; };
+		B1EA1F6222BA1B7B0057801E /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EA1F6122BA1B7B0057801E /* HomeVC.swift */; };
 		B1EA1F6522BA1B7B0057801E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1EA1F6322BA1B7B0057801E /* Main.storyboard */; };
 		B1EA1F6722BA1B7C0057801E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1EA1F6622BA1B7C0057801E /* Assets.xcassets */; };
 		B1EA1F6A22BA1B7C0057801E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1EA1F6822BA1B7C0057801E /* LaunchScreen.storyboard */; };
+		B1EA1F7222BA1BA70057801E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B1EA1F7122BA1BA70057801E /* GoogleService-Info.plist */; };
+		B1EA1F7422BA73540057801E /* UIColor+theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EA1F7322BA73540057801E /* UIColor+theme.swift */; };
+		B1EA1F7622BA74070057801E /* NewPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EA1F7522BA74070057801E /* NewPostVC.swift */; };
+		B1EA1F7822BA76030057801E /* QDTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EA1F7722BA76030057801E /* QDTextField.swift */; };
+		B1EA1F7A22BA76C20057801E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EA1F7922BA76C20057801E /* Extensions.swift */; };
+		B1EA1F7F22BA78FD0057801E /* QDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EA1F7E22BA78FD0057801E /* QDButton.swift */; };
+		B1EA1F8222BA7CCC0057801E /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EA1F8122BA7CCC0057801E /* Post.swift */; };
+		B1EA1F8422BA984D0057801E /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EA1F8322BA984D0057801E /* HomeTableViewCell.swift */; };
+		B1EA1F8622BA98750057801E /* QDLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EA1F8522BA98750057801E /* QDLabel.swift */; };
+		E2887A7DEF35035DDE11DF75 /* Pods_Quickr_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B802B4615A78943C6E8D273 /* Pods_Quickr_Demo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30E7BD49EDDDF4D2459CB42F /* Pods-Quickr Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quickr Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Quickr Demo/Pods-Quickr Demo.release.xcconfig"; sourceTree = "<group>"; };
+		3B802B4615A78943C6E8D273 /* Pods_Quickr_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quickr_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8DFED83D6C64D92DFB61FE6 /* Pods-Quickr Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quickr Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Quickr Demo/Pods-Quickr Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		B1EA1F5C22BA1B7B0057801E /* Quickr Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quickr Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1EA1F5F22BA1B7B0057801E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B1EA1F6122BA1B7B0057801E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B1EA1F6122BA1B7B0057801E /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		B1EA1F6422BA1B7B0057801E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1EA1F6622BA1B7C0057801E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1EA1F6922BA1B7C0057801E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1EA1F6B22BA1B7C0057801E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1EA1F7122BA1BA70057801E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B1EA1F7322BA73540057801E /* UIColor+theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+theme.swift"; sourceTree = "<group>"; };
+		B1EA1F7522BA74070057801E /* NewPostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPostVC.swift; sourceTree = "<group>"; };
+		B1EA1F7722BA76030057801E /* QDTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QDTextField.swift; sourceTree = "<group>"; };
+		B1EA1F7922BA76C20057801E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B1EA1F7E22BA78FD0057801E /* QDButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QDButton.swift; sourceTree = "<group>"; };
+		B1EA1F8122BA7CCC0057801E /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		B1EA1F8322BA984D0057801E /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		B1EA1F8522BA98750057801E /* QDLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QDLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +51,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2887A7DEF35035DDE11DF75 /* Pods_Quickr_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2599D321732FAFBC78B2A191 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8DFED83D6C64D92DFB61FE6 /* Pods-Quickr Demo.debug.xcconfig */,
+				30E7BD49EDDDF4D2459CB42F /* Pods-Quickr Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		86D53C25ADDA438BFC06E0FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B802B4615A78943C6E8D273 /* Pods_Quickr_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B1EA1F5322BA1B7B0057801E = {
 			isa = PBXGroup;
 			children = (
 				B1EA1F5E22BA1B7B0057801E /* Quickr Demo */,
 				B1EA1F5D22BA1B7B0057801E /* Products */,
+				2599D321732FAFBC78B2A191 /* Pods */,
+				86D53C25ADDA438BFC06E0FF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +97,54 @@
 			isa = PBXGroup;
 			children = (
 				B1EA1F5F22BA1B7B0057801E /* AppDelegate.swift */,
-				B1EA1F6122BA1B7B0057801E /* ViewController.swift */,
+				B1EA1F8022BA7CB90057801E /* Model */,
+				B1EA1F7B22BA76DE0057801E /* ViewControllers */,
+				B1EA1F7C22BA76EF0057801E /* Custom Controls */,
+				B1EA1F7D22BA76FA0057801E /* Helpers */,
 				B1EA1F6322BA1B7B0057801E /* Main.storyboard */,
 				B1EA1F6622BA1B7C0057801E /* Assets.xcassets */,
 				B1EA1F6822BA1B7C0057801E /* LaunchScreen.storyboard */,
 				B1EA1F6B22BA1B7C0057801E /* Info.plist */,
+				B1EA1F7122BA1BA70057801E /* GoogleService-Info.plist */,
 			);
 			path = "Quickr Demo";
+			sourceTree = "<group>";
+		};
+		B1EA1F7B22BA76DE0057801E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B1EA1F6122BA1B7B0057801E /* HomeVC.swift */,
+				B1EA1F8322BA984D0057801E /* HomeTableViewCell.swift */,
+				B1EA1F7522BA74070057801E /* NewPostVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B1EA1F7C22BA76EF0057801E /* Custom Controls */ = {
+			isa = PBXGroup;
+			children = (
+				B1EA1F7722BA76030057801E /* QDTextField.swift */,
+				B1EA1F8522BA98750057801E /* QDLabel.swift */,
+				B1EA1F7E22BA78FD0057801E /* QDButton.swift */,
+			);
+			path = "Custom Controls";
+			sourceTree = "<group>";
+		};
+		B1EA1F7D22BA76FA0057801E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B1EA1F7322BA73540057801E /* UIColor+theme.swift */,
+				B1EA1F7922BA76C20057801E /* Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B1EA1F8022BA7CB90057801E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B1EA1F8122BA7CCC0057801E /* Post.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +154,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B1EA1F6E22BA1B7C0057801E /* Build configuration list for PBXNativeTarget "Quickr Demo" */;
 			buildPhases = (
+				933C93E19401887177B643BF /* [CP] Check Pods Manifest.lock */,
 				B1EA1F5822BA1B7B0057801E /* Sources */,
 				B1EA1F5922BA1B7B0057801E /* Frameworks */,
 				B1EA1F5A22BA1B7B0057801E /* Resources */,
+				ED53D32A034CA80CC75AC62E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1EA1F6A22BA1B7C0057801E /* LaunchScreen.storyboard in Resources */,
+				B1EA1F7222BA1BA70057801E /* GoogleService-Info.plist in Resources */,
 				B1EA1F6722BA1B7C0057801E /* Assets.xcassets in Resources */,
 				B1EA1F6522BA1B7B0057801E /* Main.storyboard in Resources */,
 			);
@@ -130,13 +216,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		933C93E19401887177B643BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Quickr Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED53D32A034CA80CC75AC62E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Quickr Demo/Pods-Quickr Demo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Quickr Demo/Pods-Quickr Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B1EA1F5822BA1B7B0057801E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1EA1F6222BA1B7B0057801E /* ViewController.swift in Sources */,
+				B1EA1F7422BA73540057801E /* UIColor+theme.swift in Sources */,
+				B1EA1F7A22BA76C20057801E /* Extensions.swift in Sources */,
+				B1EA1F7F22BA78FD0057801E /* QDButton.swift in Sources */,
+				B1EA1F8622BA98750057801E /* QDLabel.swift in Sources */,
+				B1EA1F8222BA7CCC0057801E /* Post.swift in Sources */,
+				B1EA1F7822BA76030057801E /* QDTextField.swift in Sources */,
+				B1EA1F6222BA1B7B0057801E /* HomeVC.swift in Sources */,
+				B1EA1F8422BA984D0057801E /* HomeTableViewCell.swift in Sources */,
 				B1EA1F6022BA1B7B0057801E /* AppDelegate.swift in Sources */,
+				B1EA1F7622BA74070057801E /* NewPostVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +427,7 @@
 		};
 		B1EA1F6F22BA1B7C0057801E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8DFED83D6C64D92DFB61FE6 /* Pods-Quickr Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +446,7 @@
 		};
 		B1EA1F7022BA1B7C0057801E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30E7BD49EDDDF4D2459CB42F /* Pods-Quickr Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

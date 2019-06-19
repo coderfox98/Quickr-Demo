@@ -9,6 +9,7 @@
 import UIKit
 
 class QDTextField : UITextField {
+    
     init(frame: CGRect = .zero, placeholderText : String = "Default") {
         super.init(frame: frame)
         if frame == .zero {
@@ -20,4 +21,5 @@ class QDTextField : UITextField {
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+    
 }
